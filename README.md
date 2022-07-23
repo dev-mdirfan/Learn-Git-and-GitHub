@@ -1,4 +1,4 @@
-# [Git](https://git-scm.com/downloads)
+# [Git](https://git-scm.com/)
 Git is a command line interface to track record of all manipulation of your projects.
 [To download git form here](https://git-scm.com/downloads){:target="_blank"}
 
