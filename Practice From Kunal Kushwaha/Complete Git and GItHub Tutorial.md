@@ -20,30 +20,33 @@
 ## .git file :
 * Entire history of your working on a folder stored in .git file.
 
+#### Note :
+To paste in git command line press : shift + Insert Delete
+
 # Using Command Line :
 ### How to make a folder : (make directory)
-    $ mkdir project
+    mkdir project
 ### How to go inside a folder : (change directory)
-    $ cd project
+    cd project
 
 ### How to see all content of a folder : (list)
-    $ ls
+    ls
 
 ### How to initialize a folder as .git :
-    $ git init
+    git init
 
 ### How to see all hidden files like(.git) :
-    $ ls -a
+    ls -a
 
 ### How to see what content inside hidden file .git :
-    $ ls .git
+    ls .git
 
 ### How to create a new file :
-    $ touch name.txt
+    touch name.txt
 
 ### How to remove/delete a particular file :
-    $ rm -rf name.extension
+    rm -rf name.extension
 
 ### How to create a new file :
-    $ touch name.txt
+    touch name.txt
 
