@@ -96,14 +96,79 @@ To paste in git command line press : shift + Insert Delete
     git push origin master
 
 # What is branch? :
-* Branch
-![Learning branch](Learn-Branch.png)
+* Branch :
+![Learn branch](Learn-Branch.png)
+* Merge Branch :
+![Learn Merging a Branch](Learn-Merging-Branch.png)
 ### How to create a new branch :
     git brach name
 
 ### How switch to another brach : (now your head is pointing to other branch)
     git checkout name
 
+### How to merge a branch to main :
+    git merge name
 
 #### Note :
-* Whenever you working on some other feature or resolving a bug always create a separate branch.
+* Whenever you working on some other feature or resolving a bug always create a separate branch. Never commit on main branch &create our first pull request.
+* One Pull request = One branch, because after all commit added in that branch.
+* For different pull request for different features create a new branch and pull on them.
+
+# Working with existing project on GitHub : (Forking)
+* By Forking you take all project on your account
+
+### How to clone a repository (the forked project to local) :
+    git clone https://url
+
+#### Note :
+* If your repository of your account name of that is going to be origin.
+
+# What is Upstream URL :
+* From where you have fork the project that is known as Upstream URL
+
+### How to add Upstream URL :
+    git remote add upstream https://url
+
+* You are ready to pull request.
+
+### How to push code of a branch of your account to upstream repository : (i.e. Pull request)
+#### Note : You are able to push on upstream url like (git push upstream branchName) instead of this you have to do-
+    git push origin branchName
+
+* Then you need to pull request from `pull request` section in GitHub.
+
+### When online repository contain a commit that local does not contain that commit then you have to force push :
+    git push origin name -f
+
+### How do you make sure main branch of the Upstream and your own forked main branch always maintain for that : (Fetch Upstream)
+#### Note : You can use Fetch upstream from GitHub
+    git checkout main
+    git fetch --all --prune
+    git reset --hard upstream/main
+    git log
+    git push origin main
+
+#### OR another way :
+    git pull upstream main
+    git log
+    git push origin main0
+
+#  Squashing Commits :
+
+### How to merge all of commit into one commit :
+* One way to do that is -> reset FirstHashID-> stash -> again commit.
+* Use rebase :
+    * Copy Last Commit Hash ID
+
+            git rebase -i PasteHashID
+    * Then you are able to squash or pick.
+    * So which you want to merge write (all squash commit are added into above pick commit) -> s
+    * Or you want to leave that commit as it is -> pick
+    * To edit the commit message : `Esc` + `:` + `x`
+
+
+# Merge Conflict :
+* If Multiple user modified same line number then git will confused.
+* Go to GitHub and compare and merge that conflict manually via edit which changes you want to take.
+
+# < The End >
