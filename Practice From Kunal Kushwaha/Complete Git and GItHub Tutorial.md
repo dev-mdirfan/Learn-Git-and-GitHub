@@ -151,7 +151,7 @@ To paste in git command line press : shift + Insert Delete
 #### OR another way :
     git pull upstream main
     git log
-    git push origin main0
+    git push origin main
 
 #  Squashing Commits :
 
