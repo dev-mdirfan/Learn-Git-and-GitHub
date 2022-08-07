@@ -23,7 +23,10 @@
 <img src="https://img.shields.io/badge/Cons-If%20you%20loose%20HardDisk%20everything%20will%20be%20lost.-red" />
 
 ### Centralized VCS :
-![Centralized VCS](Centralized-VCS.jpg)
+<!-- ![Centralized VCS](Centralized-VCS.jpg) -->
+<div> <img src="Centralized-VCS.jpg" width="400"/>
+</div>
 
 ### Decentralized VCS :
-![Decentralized VCS](Decentralized-VCS.jpg)
+<!-- ![Decentralized VCS](Decentralized-VCS.jpg) -->
+<div> <img src="Decentralized-VCS.jpg" width="400"/> </div>
