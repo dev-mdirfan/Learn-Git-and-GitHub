@@ -24,7 +24,7 @@
 * You want to contribute in open source or in a project.
 
 ##### Note :
-To paste in git command line press : shift + Insert Delete
+To paste in git command line press : `shift` + `Insert Delete`
 
 # Basic Command Lines :
 #### To create a folder : (make directory)
