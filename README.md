@@ -3,7 +3,7 @@
 # [What is Git](./Practice%20From%20CodewithHarry/1-What%20is%20Git/1-What%20is%20Github.md) ?
 * Git is version control system which allows us to maintain the History of projects.
 * At what particular of time which person made which change where in the project.
-* [Download Git](https://git-scm.com/download/win) then Install.
+* __[Download Git](https://git-scm.com/download/win)__ then Install.
 
 # What is GitHub ?
 * It is a platform or an online website that allows us to host our repositories.
