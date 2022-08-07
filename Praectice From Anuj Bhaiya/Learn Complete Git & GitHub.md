@@ -1,37 +1,5 @@
-# What is Git?
-* Git is version control system means it saves the history of files that any changes you made.
-
-[Download Git](https://git-scm.com/download/win)
-* Install Git
-
-### To check your Git Version :
-    git --version
-
-### To set your configuration of your account :
-    git config --global user.name "Your Name"
-    git config --global user.email "yourmail@gmail.com"
-
-### To check your account information :
-    git config --global user.name
-    git config --global user.email
-
-### To change your information :
-    git config --global --edit
-
-### To exit from editor in git :
-* `Esc` + `:` + `wq`
-
-### To create a new folder :
-    mkdir FolderName
-
-### To change the directory :
-    cd FolderName
-
 ### To initialize a folder as git repository :
     git init
-
-### To check the content of a folder :
-    ls
 
 ### To check hidden content of a folder :
     ls -a
