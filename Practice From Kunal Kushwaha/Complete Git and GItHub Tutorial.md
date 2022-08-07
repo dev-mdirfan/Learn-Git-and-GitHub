@@ -1,27 +1,26 @@
-# Use Cases :
-* You want to collaborate with other people.
-* Want to add more feature on your projects.
-* Want to go previous versions of your projects (basically saving the history of your projects).
-* You want to contribute in open source or in a project.
-
-# Git Setup :
-### To check your Git Version :
+# Git Setup
+#### To check your Git Version :
     git --version
 
-### To set your configuration of your account :
+#### To set your configuration of your account :
     git config --global user.name "Your Name"
     git config --global user.email "yourmail@gmail.com"
 
-### To check your account information :
+#### To check your account information :
     git config --global user.name
     git config --global user.email
 
-### To change your information :
+#### To change your information :
     git config --global --edit
 
-### To exit from editor in git :
+#### To exit from editor in git :
 * `Esc` + `:` + `wq`
 
+#### To connect a new remote repository with your folder (local repository) :
+    git remote add origin https://url
+
+#### To check all url attached to your folder :
+    git remote -v
 
 
 # Git Tutorial
@@ -58,16 +57,10 @@
 ### How to clear stash which is commit : clearing stash
     git stash clear
 
-### How to connect a new remote repository with your folder (local repository) :
-    git remote add origin https://url
-
-### How to check all url attached to your folder :
-    git remote -v
-
 ### How to push local changes to remote repository :
     git push origin master
 
-# What is branch? :
+# What is branch?
 * Branch :
 ![Learn branch](Learn-Branch.png)
 * Merge Branch :

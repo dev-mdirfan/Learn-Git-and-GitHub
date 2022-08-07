@@ -17,6 +17,12 @@
 ### .git file :
 * Entire history of your working on a folder stored in .git file.
 
+# Use Cases :
+* You want to collaborate with other people.
+* Want to add more feature on your projects.
+* Want to go previous versions of your projects (basically saving the history of your projects).
+* You want to contribute in open source or in a project.
+
 ##### Note :
 To paste in git command line press : shift + Insert Delete
 
